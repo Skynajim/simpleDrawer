@@ -11,7 +11,7 @@ typedef sf::RenderWindow Window_t;
 typedef sf::Color ColorRGBA_t;
 
 typedef sf::Vector2f Position_t;  //[v, h]
-typedef sf::Vector3f Pose_t;      //[v, h, theta] *theta:12 o'clock direction is zero.
+typedef sf::Vector3f Pose_t;      //[v, h, theta] *theta:3 o'clock direction is zero.
 typedef float Aspect_t;    //height/width
 
 enum PointShape{
@@ -33,6 +33,6 @@ class SimpleDrawer{
     private:
     const float ALLOWED_CALC_ERROR_ = 0.05;
     Window_t& window_;
-    
+
 };
 #endif 
