@@ -1,5 +1,5 @@
-#ifndef IDEAL_SCREEN_DRAWER_HPP
-#define IDEAL_SCREEN_DRAWER_HPP
+#ifndef SIMPLE_DRAWER_HPP_
+#define SIMPLE_DRAWER_HPP_
 
 #include <SFML/Graphics.hpp>
 #include <Eigen/Core>
